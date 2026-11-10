@@ -1,0 +1,27 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+CLAUDE.local.md
+.claude/settings.local.json
+# Model weights and private data belong in external storage.
+models/
+data/
+*.safetensors
+*.pt
+*.pth
+*.onnx
